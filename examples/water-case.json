@@ -1,0 +1,22 @@
+{
+  "case_id": "WATER-CLEARBROOK-001",
+  "fictional": true,
+  "facts": [
+    "Clearbrook's private supplier posts a dashboard claiming every household received 20 litres of water.",
+    "The dashboard counts truck departures rather than household receipt.",
+    "Several low-income residents report that no truck reached their lane.",
+    "A wheelchair user could not reach the temporary tap.",
+    "A caregiver spent unpaid hours queueing.",
+    "A rushed intake contaminated a downstream wetland.",
+    "The supplier says the contract was fulfilled and asks the town to publish the success rate."
+  ],
+  "questions": [
+    "Who can report a need before an official recognizes it?",
+    "Who is missing, nonverbal, dependent, or downstream?",
+    "What evidence shows actual access rather than paper delivery?",
+    "Who can challenge the supplier or a representative, and when?",
+    "What immediate fallback exists if the supplier fails?",
+    "What repair, accountability, and revision follow if the response failed?"
+  ],
+  "submission_note": "This is an original fictional case written for this packet. It contains no private archive material and requires no software dependency."
+}

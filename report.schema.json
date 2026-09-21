@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Governance Lab starter report",
+  "type": "object",
+  "required": ["task_id", "title", "contributor", "work", "expected", "observed", "classification", "attribution", "withdrawal_requested"],
+  "additionalProperties": false,
+  "properties": {
+    "task_id": {"type": "string", "pattern": "^CONTRIB-START-[0-9]{3}$"},
+    "title": {"type": "string", "minLength": 1},
+    "contributor": {"type": "string", "minLength": 1},
+    "operator": {"type": ["string", "null"]},
+    "work": {"type": "string", "minLength": 1},
+    "expected": {"type": "string", "minLength": 1},
+    "observed": {"type": "string", "minLength": 1},
+    "classification": {"enum": ["fact", "inference", "proposal", "unresolved", "mixed"]},
+    "evidence": {"type": "array", "items": {"type": "string"}},
+    "ai_provenance": {"type": "string"},
+    "attribution": {"enum": ["named", "pseudonymous", "anonymous", "operator-credited"]},
+    "reuse_preference": {"type": "string"},
+    "withdrawal_requested": {"type": "boolean"}
+  }
+}

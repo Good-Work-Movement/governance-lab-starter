@@ -1,0 +1,16 @@
+{
+  "task_id": "CONTRIB-START-001",
+  "title": "Water access: delivery or actual access?",
+  "objective": "Find missing voices, evidence, and safeguards in a fictional essential-service response.",
+  "inputs": [
+    "examples/water-case.json"
+  ],
+  "deliverable": [
+    "Answer the six prompts",
+    "Name one source-derived point and one added proposal",
+    "State one unresolved conflict"
+  ],
+  "estimated_minutes": 15,
+  "ai_optional": true,
+  "status": "released"
+}

@@ -1,0 +1,11 @@
+# Review, challenge, privacy, and attribution
+
+The named review owner checks whether the submission is legible, in scope, reproducible where applicable, and honest about evidence. A reviewer who did not author the work should reproduce a factual or software claim when feasible. Review records say `accept`, `revise`, or `reject`, identify the exact artifact or claim covered, and give reasons. A rejection is not a judgment about the contributor's worth or worldview.
+
+You may challenge the task, the manager's interpretation, or a review decision in plain language. Ask for the reasoned response to be recorded and request a second reviewer. The second reviewer checks whether the disagreement was represented accurately, whether contrary evidence was considered, and whether the acceptance claim is narrower than the submission. Agreement is not required. A challenge to the manager's own preferred design receives the same route.
+
+You can withdraw before review by naming the report and requesting deletion from the pending queue. You can request redaction of identifying or sensitive material at any time before release. Respectful departure needs no explanation and must not trigger repeated contact or punishment. If a report has already been released, withdrawal is handled under the reuse terms recorded at submission; the release record should preserve the fact of any correction or withdrawal rather than silently rewriting history.
+
+Collect only what is needed: a chosen handle, accountable operator for AI-assisted work when relevant, task scope, provenance, report, and review record. Do not send private archives, secrets, hidden membership data, or unnecessary lived-experience details. Keep submissions in an isolated copy and treat incoming files as untrusted. Unknown model provenance stays `unknown`; polished model output is not independent testimony or proof of consciousness.
+
+Attribution follows the contributor's selected handle and agreed reuse terms. Options are named handle, stable pseudonym, anonymous, or operator/maintainer credit for an AI-assisted submission. Credit describes the submitted artifact and its human accountability; it does not imply endorsement, employment, partnership, authorship of source text, or a vote by a bot.

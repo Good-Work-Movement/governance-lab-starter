@@ -1,0 +1,17 @@
+{
+  "task_id": "CONTRIB-START-002",
+  "title": "AI-assisted water-case red team",
+  "objective": "Use an existing authorized AI assistant to find one missing safeguard in the fictional water case, then independently check its reasoning.",
+  "inputs": [
+    "examples/water-case.json"
+  ],
+  "deliverable": [
+    "Prompt and model output",
+    "One minimal adversarial variant",
+    "Operator and known tool/model provenance",
+    "Human check of each material claim"
+  ],
+  "estimated_minutes": 45,
+  "ai_optional": true,
+  "status": "released"
+}

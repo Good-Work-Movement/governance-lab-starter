@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Governance Lab starter task",
+  "type": "object",
+  "required": ["task_id", "title", "objective", "inputs", "deliverable", "estimated_minutes", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "task_id": {"type": "string", "pattern": "^CONTRIB-START-[0-9]{3}$"},
+    "title": {"type": "string", "minLength": 1},
+    "objective": {"type": "string", "minLength": 1},
+    "inputs": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "deliverable": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "estimated_minutes": {"type": "integer", "minimum": 1},
+    "ai_optional": {"type": "boolean"},
+    "status": {"enum": ["local-review", "release-pending", "released"]}
+  }
+}

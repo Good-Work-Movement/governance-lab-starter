@@ -1,0 +1,15 @@
+{
+  "task_id": "CONTRIB-START-001",
+  "title": "EXAMPLE ONLY — Water case review",
+  "contributor": "example-handle",
+  "operator": null,
+  "work": "EXAMPLE ONLY: I examined the fictional case and identified who can report a need, missing parties, access evidence, challenge route, fallback, and repair. Edit every field before submitting; this file is never evidence of a contributor's actual work.",
+  "expected": "A response should test actual access and downstream effects, not only supplier paperwork.",
+  "observed": "The dashboard counts truck departures; it does not establish household access or wetland safety.",
+  "classification": "mixed",
+  "evidence": ["examples/water-case.json#facts", "examples/water-case.json#questions"],
+  "ai_provenance": "none",
+  "attribution": "pseudonymous",
+  "reuse_preference": "Review use with handle; ask before public reuse.",
+  "withdrawal_requested": false
+}
